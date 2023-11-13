@@ -119,7 +119,6 @@ Action()
 
 	lr_end_transaction("Goto Itinerary",LR_AUTO);
 
-	lr_start_transaction("Cancel one ticket");
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -191,7 +190,7 @@ Action()
 	if(countFlightAfterDelete == countFlight){
 		lr_error_message("������ ��������! ������ ����������.");
 	}
-    
+
 
 	lr_start_transaction("Logout");
 
