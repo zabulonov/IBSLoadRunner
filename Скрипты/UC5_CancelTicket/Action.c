@@ -189,10 +189,9 @@ Action()
 	countFlightAfterDelete = atoi(lr_eval_string("{flightAfterDelete}"));
 	
 	if(countFlightAfterDelete == countFlight){
-		lr_error_message("Ошибка удаления! Билеты остуствуют.");
+		lr_error_message("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 	}
-
-	lr_end_transaction("Cancel one ticket",LR_AUTO);
+    
 
 	lr_start_transaction("Logout");
 
