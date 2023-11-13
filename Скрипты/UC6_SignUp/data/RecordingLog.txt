@@ -1,0 +1,635 @@
+[API Trapper      (262c:1a2c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (1cd8:3238)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 148:2df0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 148:11e8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 148:11e8)] Load Network Traffic Analyzers:
+[Network Analyzer ( 148:11e8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 148:11e8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 148:11e8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 148:11e8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 148:11e8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 148:11e8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 148:11e8)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 148:11e8)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 148:339c)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 64.233.161.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 581 bytes 
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 108.177.14.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 517 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:339c)]   (Sid:  1) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Server -> Client : 2036 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Server -> Client : 4489 bytes 
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.209.164:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 598 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 567 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 32 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 328 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Server -> Client : 966 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Server -> Client : 986 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 3040 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 439 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 282 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 209 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Server -> Client : 198 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Server -> Client : 70 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  1) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Server -> Client : 1291 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  2) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 35 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 956 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 1097 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 178 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 405 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 1790 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 117 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2358 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Server -> Client : 2551 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid=  4)  PROXIED!
+[API Trapper      (20e4:1348)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 148:339c)]   (Sid:  4) Client -> Server @ : 517 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:339c)]   (Sid:  4) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  4) Server -> Client : 3441 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 573 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  5) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Server -> Client : 3440 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 493 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 1197 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Server -> Client : 970 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Server -> Client : 1377 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.209.164:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  6) Client -> Server @ : 987 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  6) Server -> Client : 375 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  6) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 209.85.233.95:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 523 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4866 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 356 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 998 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 317 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 6208 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14120 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5404 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7864 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 6816 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14632 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7620 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 6208 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4796 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 13272 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14120 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14120 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11856 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 10444 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14680 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 16384 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 14680 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 12708 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 15532 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Server -> Client : 10445 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  7) Client -> Server @ : 39 bytes 
+[API Trapper      (33a0:16dc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 209.85.233.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 587 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Server -> Client : 4866 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 450 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 614 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Server -> Client : 998 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Server -> Client : 963 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  8) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  6) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent UC6_SignUp [User action                 ] StartTransactionEvent Goto Home [Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.209.164:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 987 bytes 
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.209.164:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 375 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 10) Client -> Server @ : 534 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 208 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 956 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 1142 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 4188 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 32 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 133 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 147 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 158 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 239 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 1974 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 102 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Client -> Server @ : 35 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 239 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 1974 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  9) Server -> Client : 63 bytes 
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      ( 148:339c)] "GET /WebTours/"   
+[Network Analyzer ( 148:339c)]   (Sid: 11) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 665 bytes  (Service=HTTP)
+[Web Request      ( 148:339c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer ( 148:339c)]   (Sid: 11) Client -> Server @ : 736 bytes (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 148:339c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer ( 148:339c)]   (Sid: 11) Client -> Server @ : 777 bytes (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 1746 bytes  (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 148:339c)] "GET /favicon.ico"   
+[Network Analyzer ( 148:339c)]   (Sid: 11) Client -> Server @ : 642 bytes (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 573 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 3440 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 948 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 3072 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1029 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 970 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 798 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 1863 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 163 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 39 bytes 
+[User action                 ] EndTransactionEvent Goto Home [User action                 ] StartTransactionEvent Goto SignUpNow [Web Request      ( 148:339c)] "GET /cgi-bin/login.pl?username=&password=&getInfo=true"   
+[Network Analyzer ( 148:339c)]   (Sid: 12) Client -> Server @ : 811 bytes (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 12) Server -> Client : 2665 bytes  (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      ( 148:339c)] "GET /WebTours/profileValidate.js"   
+[Network Analyzer ( 148:339c)]   (Sid: 12) Client -> Server @ : 638 bytes (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 12) Server -> Client : 11602 bytes  (Service=HTTP)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.211.234:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 615 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 627 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 574 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 990 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 293 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Server -> Client : 210 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 14) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 12) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Goto SignUpNow [Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 67 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 379 bytes 
+[Network Analyzer ( 148:339c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 689 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 35 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Server -> Client : 222 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 13) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.210.131:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 969 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Server -> Client : 382 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 243 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 378 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Server -> Client : 970 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Server -> Client : 1061 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 39 bytes 
+[User action                 ] StartTransactionEvent Registration [Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 67 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 1024 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 243 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Server -> Client : 659 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 15) Client -> Server @ : 39 bytes 
+[API Trapper      (2684: 9dc)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 216.58.209.164:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 16) Client -> Server @ : 987 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 16) Server -> Client : 375 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 16) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 16) Connection Terminated (by Server)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( 148:11e8)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      ( 148:339c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer ( 148:339c)]   (Sid: 17) Client -> Server @ : 1092 bytes (Service=HTTP)
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 17) Server -> Client : 1473 bytes  (Service=HTTP)
+[Network Analyzer ( 148:339c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 209.85.233.95:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 556 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4867 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 335 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 76 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 1000 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 5888 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Server -> Client : 718 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 19) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 74.125.131.95:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 611 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 2033 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 74 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 92 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 909 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 982 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 31 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 8472 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 4236 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 2824 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 1412 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 9884 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 5648 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 11296 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 7060 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Server -> Client : 4768 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 20) Client -> Server @ : 39 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer ( 148:11e8)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer ( 148:11e8)] Request Connection: Remote Server @ 108.177.14.147:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 148:339c)]   (Sid: 21) Client -> Server @ : 955 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 21) Server -> Client : 4451 bytes 
+[Network Analyzer ( 148:339c)]   (Sid: 21) Client -> Server @ : 74 bytes 
+[User action                 ] EndTransactionEvent Registration [Network Analyzer ( 148:339c)]   (Sid: 21) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent UC6_SignUp 

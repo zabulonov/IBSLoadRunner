@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/11/05 12:45:30
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/11/05 12:56:15
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2023/11/05 13:16:01
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2023/11/05 13:28:35
+StartRecordingIsDst_4=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1

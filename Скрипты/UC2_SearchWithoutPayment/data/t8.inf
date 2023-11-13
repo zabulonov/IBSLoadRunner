@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_gts1c3.cer
+URL1=http://pki.goog/repo/certs/gts1c3.der
+Total=1
+ContentType=application/pkix-cert
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

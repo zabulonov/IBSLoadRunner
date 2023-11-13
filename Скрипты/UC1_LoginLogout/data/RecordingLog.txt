@@ -1,0 +1,128 @@
+[API Trapper      (2a44: e30)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3714:3724)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (309c:22b0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (309c: 6e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (309c: 6e4)] Load Network Traffic Analyzers:
+[Network Analyzer (309c: 6e4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (309c: 6e4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (309c: 6e4)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (309c: 6e4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (309c: 6e4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (309c: 6e4)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (309c: 6e4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (309c: 6e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (309c:1b68)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (34b0: 59c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.150.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 216.58.211.237:443   (Service=)  (Sid=  2)  PROXIED!
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.74.35:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      (309c:1b68)] "GET /WebTours/"   
+[Network Analyzer (309c:1b68)]   (Sid:  4) Client -> Server @ : 789 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid:  4) Server -> Client : 195 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.150.94:443   (Service=)  (Sid=  5)  PROXIED!
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.74.35:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 74.125.131.95:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 216.58.211.237:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.74.35:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.251.1.99:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (309c:1b68)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (309c:1b68)]   (Sid: 11) Client -> Server @ : 736 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 11) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (309c:1b68)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (309c:1b68)]   (Sid: 11) Client -> Server @ : 777 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 11) Server -> Client : 1748 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (309c:1b68)] "GET /favicon.ico"   
+[Network Analyzer (309c:1b68)]   (Sid: 11) Client -> Server @ : 642 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 11) Server -> Client : 424 bytes  (Service=HTTP)
+[API Trapper      (1ddc:1274)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (309c:1b68)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.250.74.35:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      (309c:1b68)] "POST /service/update2/json?cup2key=13:S0cEA45u-i-fE6Q45FuDNwCHnkFx7Ac17jrbcr17Jn8&cup2hreq=2141fa8cf08742c204a9daf08d3dda015218fb544f0f06746dd6335727d5783c"
+[Network Analyzer (309c:1b68)]   (Sid: 12) Client -> Server @ : 9734 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 12) Server -> Client : 2535 bytes  (Service=HTTP)
+[User action                 ] StartTransactionEvent UC1_LoginLogout [User action                 ] StartTransactionEvent 1_LogIn [Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 216.58.211.237:443   (Service=)  (Sid= 13)  PROXIED!
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 142.251.1.99:443   (Service=)  (Sid= 14)  PROXIED!
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      (309c:1b68)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (309c:1b68)]   (Sid: 15) Client -> Server @ : 1028 bytes (Service=HTTP)
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (309c:1b68)]   (Sid: 15) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (309c:1b68)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (309c:1b68)]   (Sid: 15) Client -> Server @ : 882 bytes (Service=HTTP)
+[Web Request      (309c:1b68)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (309c:1b68)]   (Sid: 16) Client -> Server @ : 877 bytes (Service=HTTP)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (309c:1b68)]   (Sid: 15) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 16) Server -> Client : 1159 bytes  (Service=HTTP)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (309c:1b68)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (309c:1b68)]   (Sid: 15) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent 1_LogIn [Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 216.58.210.141:443   (Service=)  (Sid= 19)  PROXIED!
+[User action                 ] StartTransactionEvent 2_LogOut [Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (309c: 6e4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (309c: 6e4)] Address lookup for DESKTOP-VH2A0IC = 192.168.50.168
+[Web Request      (309c:1b68)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (309c:1b68)]   (Sid: 20) Client -> Server @ : 914 bytes (Service=HTTP)
+[Network Analyzer (309c: 6e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (309c:1b68)]   (Sid: 20) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (309c:1b68)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (309c:1b68)]   (Sid: 20) Client -> Server @ : 774 bytes (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 20) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (309c:1b68)]   (Sid: 20) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent 2_LogOut [User action                 ] EndTransactionEvent UC1_LoginLogout 

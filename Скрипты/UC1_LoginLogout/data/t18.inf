@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.htm
+URL1=http://localhost:1080/cgi-bin/nav.pl?in=home
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

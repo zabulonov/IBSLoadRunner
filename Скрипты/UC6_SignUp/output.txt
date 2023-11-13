@@ -1,0 +1,89 @@
+Virtual User Script started at: 11/13/2023 2:55:44 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\loadrunner\loadrunner_copy\UC6_SignUp\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(31): The value of username is: userKeOfXMbXGRVHNZDpyStvMKISw
+Action.c(36): Файл data.dat успешно открыт.
+Action.c(38): Данные успешно записаны в файл.
+Action.c(48): Notify: Transaction "UC6_SignUp" started.
+Action.c(50): Notify: Transaction "Goto Home" started.
+Action.c(52): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
+Action.c(52): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
+Action.c(55): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
+Action.c(55): web_add_auto_header("sec-ch-ua-mobile") was successful  	[MsgId: MMSG-26392]
+Action.c(58): web_add_auto_header("sec-ch-ua-platform") started  	[MsgId: MMSG-26355]
+Action.c(58): web_add_auto_header("sec-ch-ua-platform") was successful  	[MsgId: MMSG-26392]
+Action.c(61): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(61): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(64): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(67): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(67): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(70): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(70): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(73): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(73): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(78): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(78): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(80): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(80): Registered web_reg_find successful for "Text=<title>Web Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(80): web_url("WebTours") was successful, 366 body bytes, 298 header bytes  	[MsgId: MMSG-26386]
+Action.c(89): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(89): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(92): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(92): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(98): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(98): Registered web_reg_find successful for "Text=<title>Web Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(98): web_url("welcome.pl") was successful, 686 body bytes, 327 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(107): web_add_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(107): web_add_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(110): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(110): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(114): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(114): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(116): web_url("nav.pl") started  	[MsgId: MMSG-26355]
+Action.c(116): Registered web_reg_find successful for "Text=<title>Web Tours Navigation Bar</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(116): web_url("nav.pl") was successful, 1486 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(125): Notify: Transaction "Goto Home" ended with a "Pass" status (Duration: 0.7376 Wasted Time: 0.2341).
+Action.c(127): Notify: Transaction "Goto SignUpNow" started.
+Action.c(129): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(129): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(132): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(132): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(138): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(138): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(140): web_url("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(140): Registered web_reg_find successful for "Text=First time registering?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(140): web_url("login.pl") was successful, 2429 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(149): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(149): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(152): web_url("profileValidate.js") started  	[MsgId: MMSG-26355]
+Action.c(152): web_url("profileValidate.js") was successful, 11288 body bytes, 313 header bytes  	[MsgId: MMSG-26386]
+Action.c(160): Notify: Transaction "Goto SignUpNow" ended with a "Pass" status (Duration: 0.2668 Wasted Time: 0.0205).
+Action.c(162): Notify: Transaction "Registration" started.
+Action.c(164): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(164): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(167): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(167): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(173): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(173): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(175): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(175): Registered web_reg_find successful for "Text=Thank you, <b>userKeOfXMbXGRVHNZDpyStvMKISw</b>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(175): web_submit_data("login.pl_2") was successful, 1102 body bytes, 461 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(194): Notify: Transaction "Registration" ended with a "Pass" status (Duration: 0.1559 Wasted Time: 0.0094).
+Action.c(196): Notify: Transaction "UC6_SignUp" ended with a "Pass" status (Duration: 1.2234 Wasted Time: 0.2641).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

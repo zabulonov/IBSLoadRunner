@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12_gtsr1.cer
+URL1=http://pki.goog/repo/certs/gtsr1.der
+Total=1
+ContentType=application/pkix-cert
+SnapshotXmlFile=snapshot_12.xml
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t12_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

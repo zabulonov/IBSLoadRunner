@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cacerts
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy: same-origin; report-to="cacerts"
+Report-To: {"group":"cacerts","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/cacerts"}]}
+Content-Length: 1304
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sat, 04 Nov 2023 16:47:27 GMT
+Expires: Sat, 04 Nov 2023 17:37:27 GMT
+Cache-Control: public, max-age=3000
+Age: 1176
+Last-Modified: Mon, 17 Aug 2020 09:45:00 GMT
+Content-Type: application/pkix-cert
+Vary: Accept-Encoding
+
