@@ -81,7 +81,7 @@ Action()
 
 	lr_start_transaction("UC3_Buy_Ticket");
 
-	lr_start_transaction("LogIn");
+	lr_start_transaction("Login");
 
 	web_add_auto_header("Sec-Fetch-User", 
 		"?1");
@@ -135,7 +135,7 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 	
-	lr_end_transaction("LogIn",LR_AUTO);
+	lr_end_transaction("Login",LR_AUTO);
 
 	lr_start_transaction("Goto_Flights");
 	
@@ -323,7 +323,7 @@ Action()
 
 	lr_end_transaction("Send_Payments",LR_AUTO);
 
-	lr_start_transaction("LogOut");
+	lr_start_transaction("Logout");
 
 	web_revert_auto_header("Origin");
 
@@ -353,7 +353,7 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("LogOut",LR_AUTO);
+	lr_end_transaction("Logout",LR_AUTO);
 
 	lr_end_transaction("UC3_Buy_Ticket",LR_AUTO);
 
