@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC2_SearchWithoutPayment__*delimiter*__Login__*delimiter*__GotoFlights__*delimiter*__SearchFlights"
+Order="UC2_SearchWithoutPayment__*delimiter*__Goto_Home__*delimiter*__Login__*delimiter*__Goto_Flights__*delimiter*__Search_Flight__*delimiter*__Select_Flight"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,6 +59,8 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC2_SearchWithoutPayment=
+Goto_Home=
 Login=
-GotoFlights=
-SearchFlights=
+Goto_Flights=
+Search_Flight=
+Select_Flight=

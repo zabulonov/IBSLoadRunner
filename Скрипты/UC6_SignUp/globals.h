@@ -17,9 +17,9 @@
 // Global Variables
 
 void generateUnique(char* buffer, int length, char* prefix) {
-    long t = time(NULL);
+    //long t = time(NULL);
     int random_number = rand() % 100000;  
-    snprintf(buffer, length, "%s%ld%d", prefix, t, random_number);
+    snprintf(buffer, length, "%s%ld%d", prefix, random_number);
 }
 
 void generateRandomString(char *str, int length, char* prefix) {

@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC6_SignUp__*delimiter*__Goto Home__*delimiter*__Goto SignUpNow__*delimiter*__Registration"
+Order="UC6_SignUp__*delimiter*__Goto_Home__*delimiter*__Goto_SignUpNow__*delimiter*__Registration__*delimiter*__After_Registration"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,6 +59,7 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 UC6_SignUp=
-"Goto Home"=
-"Goto SignUpNow"=
+Goto_Home=
+Goto_SignUpNow=
 Registration=
+After_Registration=

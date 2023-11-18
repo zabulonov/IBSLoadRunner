@@ -3,8 +3,12 @@ Action()
 
 	char* departChar;
 	char* arriveChar;
+	int count;
+	char* randomOutboundFlight;
 	
 	lr_start_transaction("UC2_SearchWithoutPayment");
+	
+	lr_start_transaction("Goto_Home");
 
 	web_add_header("Sec-Fetch-Site", 
 		"none");
@@ -80,6 +84,8 @@ Action()
 		"Snapshot=t17.inf", 
 		"Mode=HTTP", 
 		LAST);
+		
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_start_transaction("Login");
 
@@ -140,7 +146,7 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("GotoFlights");
+	lr_start_transaction("Goto_Flights");
 
 	// Assertion
 	web_reg_find("Text=User has returned to the search page", LAST);
@@ -178,14 +184,20 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("GotoFlights",LR_AUTO);
+	lr_end_transaction("Goto_Flights",LR_AUTO);
 
-	lr_start_transaction("SearchFlights");
+	lr_start_transaction("Search_Flight");
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
 
 	lr_think_time(5);
+	
+	web_reg_save_param("OutboundFlight",
+    "LB=<input type=\"radio\" name=\"outboundFlight\" value=\"",
+    "RB=\"",
+    "Ord=ALL",
+    LAST);
 	
 	// Проблема одинакового пункта вылета и прилета
 	
@@ -225,7 +237,49 @@ Action()
 		"Name=.cgifields", "Value=seatPref", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("SearchFlights",LR_AUTO);
+	lr_end_transaction("Search_Flight",LR_AUTO);
+	
+	lr_start_transaction("Select_Flight");
+	
+
+	count = atoi(lr_eval_string("{OutboundFlight_count}"));
+	if (count > 0) {
+	
+	    int index = rand() % count + 1;
+	
+	    char paramName[64];
+	    sprintf(paramName, "{OutboundFlight_%d}", index);
+	
+		randomOutboundFlight = lr_eval_string(paramName);
+		lr_save_string(randomOutboundFlight, "randomOutboundFlight");
+	    lr_output_message("Выбран случайный OutboundFlight: %s", randomOutboundFlight);
+	}
+	else{
+		lr_error_message("Не смог найти OutboundFlight");
+	 }
+
+	// Assertion
+	web_reg_find("Text=<title>Flight Reservation</title>", LAST);
+	web_reg_find("Text={firstName}",LAST);
+		
+	web_submit_data("reservations.pl_3", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t56.inf", 
+		"Mode=HTTP", 
+		ITEMDATA, 
+		"Name=outboundFlight", "Value={randomOutboundFlight}", ENDITEM, 
+		"Name=numPassengers", "Value={numPassengers}", ENDITEM, 
+		"Name=advanceDiscount", "Value={advanceDiscount}", ENDITEM, 
+		"Name=seatType", "Value={seatTypeRandom}", ENDITEM, 
+		"Name=seatPref", "Value={seatPrefRandom}", ENDITEM, 
+		"Name=reserveFlights.x", "Value=45", ENDITEM, 
+		"Name=reserveFlights.y", "Value=15", ENDITEM, 
+		LAST);
+
+	lr_end_transaction("Select_Flight",LR_AUTO);
 
 	lr_end_transaction("UC2_SearchWithoutPayment",LR_AUTO);
 

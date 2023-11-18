@@ -1,4 +1,4 @@
-Virtual User Script started at: 14.11.2023 16:53:03
+Virtual User Script started at: 18.11.2023 12:48:15
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,11 +9,11 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(31): The value of username is: usereTwxIDXVLnHUNqlMcInVMXoEB
+Action.c(31): The value of username is: userUVuYJDfMUPWuGIOfxXwUaSyFB
 Action.c(36): Файл data.dat успешно открыт.
 Action.c(38): Данные успешно записаны в файл.
 Action.c(48): Notify: Transaction "UC6_SignUp" started.
-Action.c(50): Notify: Transaction "Goto Home" started.
+Action.c(50): Notify: Transaction "Goto_Home" started.
 Action.c(52): web_add_auto_header("sec-ch-ua") started  	[MsgId: MMSG-26355]
 Action.c(52): web_add_auto_header("sec-ch-ua") was successful  	[MsgId: MMSG-26392]
 Action.c(55): web_add_auto_header("sec-ch-ua-mobile") started  	[MsgId: MMSG-26355]
@@ -53,8 +53,8 @@ Action.c(114): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(116): web_url("nav.pl") started  	[MsgId: MMSG-26355]
 Action.c(116): Registered web_reg_find successful for "Text=<title>Web Tours Navigation Bar</title>" (count=1)  	[MsgId: MMSG-26364]
 Action.c(116): web_url("nav.pl") was successful, 1488 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(125): Notify: Transaction "Goto Home" ended with a "Pass" status (Duration: 0,7025 Wasted Time: 0,1527).
-Action.c(127): Notify: Transaction "Goto SignUpNow" started.
+Action.c(125): Notify: Transaction "Goto_Home" ended with a "Pass" status (Duration: 1,4569 Wasted Time: 0,3172).
+Action.c(127): Notify: Transaction "Goto_SignUpNow" started.
 Action.c(129): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
 Action.c(129): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
 Action.c(132): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
@@ -68,7 +68,7 @@ Action.c(149): web_add_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
 Action.c(149): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
 Action.c(152): web_url("profileValidate.js") started  	[MsgId: MMSG-26355]
 Action.c(152): web_url("profileValidate.js") was successful, 11288 body bytes, 314 header bytes  	[MsgId: MMSG-26386]
-Action.c(160): Notify: Transaction "Goto SignUpNow" ended with a "Pass" status (Duration: 0,2697 Wasted Time: 0,0154).
+Action.c(160): Notify: Transaction "Goto_SignUpNow" ended with a "Pass" status (Duration: 0.3304 Wasted Time: 0.0220).
 Action.c(162): Notify: Transaction "Registration" started.
 Action.c(164): web_add_header("Origin") started  	[MsgId: MMSG-26355]
 Action.c(164): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
@@ -77,10 +77,23 @@ Action.c(167): web_add_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26
 Action.c(173): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(173): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(175): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
-Action.c(175): Registered web_reg_find successful for "Text=Thank you, <b>usereTwxIDXVLnHUNqlMcInVMXoEB</b>" (count=1)  	[MsgId: MMSG-26364]
-Action.c(175): web_submit_data("login.pl_2") was successful, 1102 body bytes, 461 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(194): Notify: Transaction "Registration" ended with a "Pass" status (Duration: 0,2176 Wasted Time: 0,0088).
-Action.c(196): Notify: Transaction "UC6_SignUp" ended with a "Pass" status (Duration: 1,2546 Wasted Time: 0,1769).
+Action.c(175): Registered web_reg_find successful for "Text=Thank you, <b>userUVuYJDfMUPWuGIOfxXwUaSyFB</b>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(175): web_submit_data("login.pl_2") was successful, 1102 body bytes, 460 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(194): Notify: Transaction "Registration" ended with a "Pass" status (Duration: 0.2540 Wasted Time: 0.0103).
+Action.c(196): Notify: Transaction "After_Registration" started.
+Action.c(198): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(198): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(198): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(200): web_url("button_next.gif") started  	[MsgId: MMSG-26355]
+Action.c(200): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(200): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MMSG-26574]
+Action.c(200): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(200): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(200): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(200): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(200): web_url("button_next.gif") was successful, 5919 body bytes, 1895 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(210): Notify: Transaction "After_Registration" ended with a "Pass" status (Duration: 0.3258 Wasted Time: 0.0173).
+Action.c(212): Notify: Transaction "UC6_SignUp" ended with a "Pass" status (Duration: 2.4464 Wasted Time: 0.3668).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

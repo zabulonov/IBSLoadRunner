@@ -5,7 +5,7 @@ Action()
 
 	lr_start_transaction("UC5_CancelTicket");
 
-	lr_start_transaction("Goto Home");
+	lr_start_transaction("Goto_Home");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"none");
@@ -50,7 +50,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("Goto Home",LR_AUTO);
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_start_transaction("Login");
 
@@ -88,7 +88,7 @@ Action()
 
 	lr_end_transaction("Login",LR_AUTO);
 
-	lr_start_transaction("Goto Itinerary");
+	lr_start_transaction("Goto_Itinerary");
 
 	web_revert_auto_header("Sec-Fetch-User");
 
@@ -117,8 +117,9 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_end_transaction("Goto Itinerary",LR_AUTO);
-
+	lr_end_transaction("Goto_Itinerary",LR_AUTO);
+	
+	lr_start_transaction("Cancel_Ticket");
 
 	web_add_header("Origin", 
 		"http://localhost:1080");
@@ -137,9 +138,11 @@ Action()
         LAST);
 	
 	if(countFlight<=2 && countFlight > 0)
-	{
+	{		
 		int randNumber = rand() % countFlight + 1;
 		lr_save_int(randNumber, "randNumber");
+		
+		
 		
 		// Assertion
 		web_reg_find("Text=<title>Flights List</title>", LAST);
@@ -151,6 +154,7 @@ Action()
 		"Name=removeFlights.x", "Value=72", ENDITEM,
 		"Name=removeFlights.y", "Value=7", ENDITEM,
 		LAST);
+		
 	}
 	
 	if(countFlight>=3)
@@ -171,6 +175,7 @@ Action()
 		lr_save_int(randNumber2, "randNumber2");
 		lr_save_int(randNumber3, "randNumber3");
 		
+		
 		// Assertion
 		web_reg_find("Text=<title>Flights List</title>", LAST);
 		
@@ -183,15 +188,17 @@ Action()
 		"Name=removeFlights.x", "Value=72", ENDITEM,
 		"Name=removeFlights.y", "Value=7", ENDITEM,
 		LAST);
+		
 	}
 	
 	countFlightAfterDelete = atoi(lr_eval_string("{flightAfterDelete}"));
 	
 	if(countFlightAfterDelete == countFlight){
-		lr_error_message("Ошибка удаления! Билеты остуствуют.");
+		lr_output_message("Ошибка удаления! Билеты остуствуют.");
 	}
-
-
+	
+	lr_end_transaction("Cancel_Ticket",LR_AUTO);
+	
 	lr_start_transaction("Logout");
 
 	web_revert_auto_header("Sec-Fetch-User");

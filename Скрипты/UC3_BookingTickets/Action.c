@@ -5,6 +5,10 @@ Action()
 	int count;
 	char* randomOutboundFlight;
 	
+	lr_start_transaction("UC3_Buy_Ticket");
+	
+	lr_start_transaction("Goto_Home");
+	
 	web_add_header("Sec-Fetch-Site", 
 		"none");
 
@@ -77,9 +81,8 @@ Action()
 		"Snapshot=t46.inf", 
 		"Mode=HTTP", 
 		LAST);
-
-
-	lr_start_transaction("UC3_Buy_Ticket");
+		
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_start_transaction("Login");
 
@@ -322,6 +325,35 @@ Action()
 		LAST);
 
 	lr_end_transaction("Send_Payments",LR_AUTO);
+	
+	lr_start_transaction("Goto_Itinerary");
+
+	web_revert_auto_header("Sec-Fetch-User");
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+	
+    web_reg_save_param("flight",
+       	"LB=name=\"flightID\" value=\"",
+       	"RB=\"",
+       	"Ord=all",
+       	"Notfound=warning",
+       	LAST);
+	
+	// Assertion
+	web_reg_find("Text=User wants the intineraries", LAST);
+                  
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t6.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("Goto_Itinerary",LR_AUTO);
 
 	lr_start_transaction("Logout");
 

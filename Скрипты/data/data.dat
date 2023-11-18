@@ -1,12 +1,14 @@
-username,password,firstName,lastName,streetAdress,zip,cardNumber,expDate,city,seatPreference,seatType
-jojo,bean,Jojo,Bean,Some jojo address,123456,1111222233334444,1234,Denver,Aisle,First
-sadgirl911,Gs2344sa$,Sad,Girl,Doomers Street,1999,2135431245364531,2311,Frankfurt,Window,Business
-Yaposhka,chineseeRulit,Syn,Dzin,Great Wall,345865,5734563454735733,4313,London,None,Coach
-secretAgentMan,blofeld,James,Bond,Bakers Street,675342,7777777777777777,0007,Los Angeles,,
-ladyGaga,hjfds67Sd,Lady,Gaga,Los Angeles,765123,3213745648768546,7456,Paris,,
-ElonX,XXXXXXXX,Elon,Musk,Poligon,344123,7777736777734777,7623,Portland,,
-KillBillYbill,tarantinO43,Bill,Gates,Microsoft office,321345,32131231232132131,3333,San Francisco,,
-Rrondo,lovefootball123,Cristiano,Ronaldo,barcelona,435123,3213772331332132,1234,Seattle,,
-GorgorodX,GorTopDrug,Miron,Yanovich,Gorgorod Staicizm,096341,0000745648768546,4356,Sydney,,
-Platina,PlatwithDora,Robert,Platiudis,RNB Club,345678,1257745648761647,2356,,,
-usereTwxIDXVLnHUNqlMcInVMXoEB,password_YOYSUrOoHhSCFwcOdJJsZRZIcTavWkkQONkbrGfW,name_QwHePmTYSoAWZf,surname_VgtjxSjtZhk,address_mssfXcTfrudmSdTwcmtoPWGajqMOHbsxNOKAwSNmA,16999,1699969984,169,,,
+username,password,firstName,lastName,streetAdress,zip,cardNumber,expDate
+jojo,bean,Jojo,Bean,Some jojo address,123456,1111222233334444,1234
+sadgirl911,Gs2344sa$,Sad,Girl,Doomers Street,1999,2135431245364531,2311
+Yaposhka,chineseeRulit,Syn,Dzin,Great Wall,345865,5734563454735733,4313
+secretAgentMan,blofeld,James,Bond,Bakers Street,675342,7777777777777777,0007
+ladyGaga,hjfds67Sd,Lady,Gaga,Los Angeles,765123,3213745648768546,7456
+ElonX,XXXXXXXX,Elon,Musk,Poligon,344123,7777736777734777,7623
+KillBillYbill,tarantinO43,Bill,Gates,Microsoft office,321345,32131231232132131,1234
+Rrondo,lovefootball123,Cristiano,Ronaldo,barcelona,435123,3213772331332132,1234
+GorgorodX,GorTopDrug,Miron,Yanovich,Gorgorod Staicizm,096341,0000745648768546,4356
+Platina,PlatwithDora,Robert,Platiudis,RNB Club,345678,1257745648761647,2356
+usereGxBVlTRlBqyRXvtlXpBBUOsB,password_lhYItHUaqWWduTmrbuJFwdlxRmKbiBbRUWwLIWOK,name_CrTiCqEgCGmYxT,surname_miQNvOPpWRR,address_seVgIMfWNLanlMLtovIDfkkndIsuZBPHuTDNlysRH,71071,3237816088,3118 
+usergMorSYuUAPsAgeGVKbDdDrHgi,password_VHlprSCBBcBjOBeVOYNmWstWxLdHeGVRKtDZSukA,name_ToPaaMUyHBKOsH,surname_shXALEinbEb,address_HugSJJKiIUvvvechIhaTnybEeYouCRNEyJahePSnn,27691,1087015046,1621 
+userUVuYJDfMUPWuGIOfxXwUaSyFB,password_pRBUvxvCknrmTmLdEeISDHfwZorbpSTaMpNWsDQT,name_MXBlwvsxYEGlmx,surname_GaofPwIoZdI,address_MuZrUiSVGkyYTVgAPwgnecZLlgoLSWaCiFlgkncfM,32371,1055715151,1137 

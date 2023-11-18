@@ -1,6 +1,9 @@
 Action()
-{
-
+{	
+	lr_start_transaction("UC1_LoginLogout");
+	
+	lr_start_transaction("Goto_Home");
+	
 	web_add_header("Sec-Fetch-Site", 
 		"none");
 
@@ -74,8 +77,8 @@ Action()
 		"Snapshot=t18.inf", 
 		"Mode=HTTP", 
 		LAST);
-
-	lr_start_transaction("UC1_LoginLogout");
+		
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_start_transaction("Login");
 
@@ -134,6 +137,46 @@ Action()
 
 
 	lr_end_transaction("Login",LR_AUTO);
+	
+	lr_start_transaction("Goto_Flights");
+
+	// Assertion
+	web_reg_find("Text=User has returned to the search page", LAST);
+	
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t21.inf", 
+		"Mode=HTTP", 
+		LAST);
+
+	// Assertion
+	web_reg_find("Text=<title>Web Tours Navigation Bar</title>", LAST);
+	
+	web_url("nav.pl_3", 
+		"URL=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"Snapshot=t22.inf", 
+		"Mode=HTTP", 
+		LAST);
+
+	// Assertion
+	web_reg_find("Text=<title>Flight Selections</title>", LAST);
+	
+	web_url("reservations.pl", 
+		"URL=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"Snapshot=t23.inf", 
+		"Mode=HTTP", 
+		LAST);
+
+	lr_end_transaction("Goto_Flights",LR_AUTO);
 
 	lr_think_time(5);
 

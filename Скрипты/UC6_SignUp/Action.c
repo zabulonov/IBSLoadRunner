@@ -18,7 +18,7 @@ Action()
 	generateRandomString(address, 50, "address_");
 	generateUnique(zip, 6, "");
 	generateUnique(cardNumber, 11, "");
-	generateUnique(expDate, 4, "");
+	generateUnique(expDate, 5, "");
 	
     
     lr_save_string(username, "username");
@@ -34,7 +34,7 @@ Action()
 	pFile = fopen("..\\data\\data.dat", "a+");  
 	if (pFile != NULL) {
 	    lr_output_message("Файл data.dat успешно открыт.");
-	    if (fprintf(pFile, "%s,%s,%s,%s,%s,%s,%s,%s,%s\n", username, password,name,surname,address,zip,cardNumber,expDate,",,") > 0) {
+	    if (fprintf(pFile, "%s,%s,%s,%s,%s,%s,%s,%s \n", username, password,name,surname,address,zip,cardNumber,expDate) > 0) {
 	        lr_output_message("Данные успешно записаны в файл.");
 	    } else {
 	        lr_error_message("Ошибка записи данных в файл.");
@@ -47,7 +47,7 @@ Action()
 
 	lr_start_transaction("UC6_SignUp");
 
-	lr_start_transaction("Goto Home");
+	lr_start_transaction("Goto_Home");
 
 	web_add_auto_header("sec-ch-ua", 
 		"\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"");
@@ -122,9 +122,9 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("Goto Home",LR_AUTO);
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
-	lr_start_transaction("Goto SignUpNow");
+	lr_start_transaction("Goto_SignUpNow");
 
 	web_add_auto_header("Sec-Fetch-Site", 
 		"same-origin");
@@ -157,7 +157,7 @@ Action()
 		"Snapshot=t5.inf", 
 		LAST);
 
-	lr_end_transaction("Goto SignUpNow",LR_AUTO);
+	lr_end_transaction("Goto_SignUpNow",LR_AUTO);
 
 	lr_start_transaction("Registration");
 
@@ -192,6 +192,22 @@ Action()
 		LAST);
 
 	lr_end_transaction("Registration",LR_AUTO);
+	
+	lr_start_transaction("After_Registration");
+
+	web_revert_auto_header("Sec-Fetch-User");
+
+	web_url("button_next.gif", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("After_Registration",LR_AUTO);
 
 	lr_end_transaction("UC6_SignUp",LR_AUTO);
 

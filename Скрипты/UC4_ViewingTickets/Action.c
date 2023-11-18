@@ -3,7 +3,7 @@ Action()
 
 	lr_start_transaction("UC4_ViewingTickets");
 
-	lr_start_transaction("Goto Home");
+	lr_start_transaction("Goto_Home");
 
 	web_add_header("Sec-Fetch-Site", 
 		"none");
@@ -78,7 +78,7 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("Goto Home",LR_AUTO);
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_start_transaction("Login");
 
@@ -137,7 +137,7 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("Goto Itinerary");
+	lr_start_transaction("Goto_Itinerary");
 
 	// Assertion
 	web_reg_find("Text=User wants the intineraries", LAST);
@@ -176,11 +176,11 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("Goto Itinerary",LR_AUTO);
+	lr_end_transaction("Goto_Itinerary",LR_AUTO);
 
 	lr_think_time(5);
 
-	lr_start_transaction("Goto Home");
+	lr_start_transaction("Goto_Home");
 
 	// Assertion
 	web_reg_find("Text=User has returned to the home page.", LAST);
@@ -218,7 +218,7 @@ Action()
 		"Mode=HTTP", 
 		LAST);
 
-	lr_end_transaction("Goto Home",LR_AUTO);
+	lr_end_transaction("Goto_Home",LR_AUTO);
 
 	lr_think_time(5);
 
