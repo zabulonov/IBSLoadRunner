@@ -180,48 +180,6 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("Goto_Home");
-
-	// Assertion
-	web_reg_find("Text=User has returned to the home page.", LAST);
-	
-	web_url("Home Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
-		"Snapshot=t10.inf", 
-		"Mode=HTTP", 
-		LAST);
-
-	// Assertion
-	web_reg_find("Text=<title>Web Tours Navigation Bar</title>", LAST);
-
-	web_url("nav.pl_4", 
-		"URL=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
-		"Snapshot=t11.inf", 
-		"Mode=HTTP", 
-		LAST);
-
-	// Assertion
-	web_reg_find("Text=<title>Welcome to Web Tours</title>", LAST);
-	
-	web_url("login.pl_3", 
-		"URL=http://localhost:1080/cgi-bin/login.pl?intro=true", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 
-		"Snapshot=t12.inf", 
-		"Mode=HTTP", 
-		LAST);
-
-	lr_end_transaction("Goto_Home",LR_AUTO);
-
-	lr_think_time(5);
-
 	lr_start_transaction("Logout");
 
 	// Assertion
