@@ -154,7 +154,7 @@ Action()
 		"Name=removeFlights.x", "Value=72", ENDITEM,
 		"Name=removeFlights.y", "Value=7", ENDITEM,
 		LAST);
-		
+	
 	}
 	
 	if(countFlight>=3)
@@ -191,10 +191,11 @@ Action()
 		
 	}
 	
-	countFlightAfterDelete = atoi(lr_eval_string("{flightAfterDelete}"));
+	countFlightAfterDelete = atoi(lr_eval_string("{flightAfterDelete_count}"));
+	
 	
 	if(countFlightAfterDelete == countFlight){
-		lr_output_message("Ошибка удаления! Билеты остуствуют.");
+		lr_error_message("Ошибка удаления!");
 	}
 	
 	lr_end_transaction("Cancel_Ticket",LR_AUTO);
