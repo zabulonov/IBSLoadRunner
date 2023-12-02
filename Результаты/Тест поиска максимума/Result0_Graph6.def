@@ -12,7 +12,7 @@ CustomData=
 
 [TabSheet]
 Visible=1
-ActivePage=1
+ActivePage=0
 
 [MultiUIInfos]
 Count=2
@@ -31,7 +31,7 @@ ActionClearFilterEnabled=0
 ChartFile=C:\Users\naidc\OneDrive\Документы\GitHub\IBSLoadRunner\Результаты\Тест поиска максимума\Result0_Graph6.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
